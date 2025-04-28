@@ -59,7 +59,8 @@ span {
 }
 
 .container__top__welcome {
-    font-size: 1.5rem;
+    text-wrap: nowrap;
+    font-size: 1.25rem;
 }
 
 .container__top__welcome span {
@@ -180,5 +181,9 @@ input:focus {
     
     input {
         /* margin-top: 4%; */
+    }
+
+    .container__top__welcome {
+        margin-right: 5%;
     }
 }
